@@ -1,3 +1,4 @@
+#!/usr/bin/env python
 import imghdr
 from PIL import Image
 import os
