@@ -5,7 +5,7 @@ import os
 import logging
 import sys
 
-directory = os.fsencode("./images")
+directory = os.fsencode(sys.argv[1])
 for file in os.listdir(directory):
     filename = os.fsdecode(file)
     try:
